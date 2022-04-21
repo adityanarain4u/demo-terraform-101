@@ -1,8 +1,8 @@
 #!/usr/bin/env sh
 
-cp /tmp/assets/webapp /usr/local/bin/
-chmod +x /usr/local/bin/*
-cp /tmp/assets/webapp.service /lib/systemd/system/webapp.service
-service webapp start
-systemctl enable webapp
+sudo cp /tmp/assets/webapp /usr/local/bin/
+sudo chmod +x /usr/local/bin/*
+sudo cp /tmp/assets/webapp.service /lib/systemd/system/webapp.service
+sudo service webapp start
+sudo systemctl enable webapp
 
